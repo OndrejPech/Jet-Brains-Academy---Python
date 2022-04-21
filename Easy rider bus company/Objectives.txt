@@ -1,0 +1,73 @@
+
+OBJECTIVES STAGE 1
+1.The string containing the data in JSON format is passed to standard input.
+2.Check that the data types match.
+3.Check that the required fields are filled in.
+4.Display the information about the number of found errors in total and in each field. Keep in mind that there might be no errors at all.
+5.The output should have the same formatting as shown in the example.
+No need to worry about the format now. Let's at first just make sure that the fields have the right type and all required ones are filled.
+If you can't find the necessary information in the stage description, it can probably be found in the attached documentation.
+
+Note that the type Char is present among the data types.
+
+
+
+
+OBJECTIVES STAGE 2
+1. The string containing the data in JSON format is passed to standard input.
+2. Check that the data format complies with the documentation.
+3. Only the fields that have such a requirement are relevant, i.e. stop_name, stop_type, a_time, so, please, count errors only for them.
+4. Like in the previous stage, print the information about the number of found errors in total and in each field. Remember that there might be no errors at all.
+5. The output should have the same formatting as shown in the example.
+If you can't find the necessary information in the stage description, it can probably be found in the attached documentation.
+
+Note that the time format is military time (24 hours, hh:mm). That means that there are certain restrictions:
+
+the first digit cannot be 3, 4, etc.;
+hours less than 10 should have zero in front of them, e.g. 08:34;
+the delimiter should be colon :.
+
+
+
+
+
+OBJECTIVES STAGE 3
+1. The string containing the data in JSON format is passed to standard input.
+2. Find the names of all the bus lines.
+3. Verify the number of stops for each line.
+4. The output should have the same formatting as shown in the example.
+If you can't find the necessary information in the stage description, it can probably be found in the attached documentation.
+
+
+OBJECTIVES STAGE 4
+1. The string containing the data in JSON format is passed to standard input.
+2. Make sure each bus line has exactly one starting point and one final stop.
+3. If a bus line does not meet this condition, stop checking and print a message about it. Do not continue checking the other bus lines.
+4. If all bus lines meet the condition, count how many starting points and final stops there are. Print their unique names in alphabetical order.
+5. Count the transfer stops and print their unique names in alphabetical order. A transfer stop is a stop shared by at least two bus lines.
+6. The output should have the same formatting as shown in the example.
+If you cannot find the necessary information in the stage description, it can probably be found in the attached documentation.
+
+
+
+
+OBJECTIVES STAGE 5
+1. The string containing the data in JSON format is passed to standard input.
+2. Check that the arrival time for the upcoming stops for a given bus line is increasing.
+3. If the arrival time for the next stop is earlier than or equal to the time of the current stop, stop checking that bus line and remember the name of the incorrect stop.
+4. Display the information for those bus lines that have time anomalies. For the correct stops, do not display anything.
+5. If all the lines are correct timewise, print OK.
+6. The output should have the same formatting as shown in the example.
+If you can't find the necessary information in the stage description, it can probably be found in the attached documentation.
+
+
+
+
+
+OBJECTIVES STAGE 6
+1. The string containing the data in JSON format is passed to standard input.
+2. Check that all the departure points, final stops, and transfer stations are not "On-demand".
+3. Display the unique names of the stops containing this type of issue. Sort them in ascending order.
+4. If everything is fine, print OK.
+5. The output should have the same formatting as shown in the example.
+If you cannot find the necessary information in the stage description, it can probably be found in the attached documentation.
