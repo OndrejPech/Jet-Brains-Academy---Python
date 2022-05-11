@@ -1,0 +1,67 @@
+
+OBJECTIVES STAGE 1
+The program should work in the following way:
+
+Ask the user to provide the initial state of the 3x3 table with the first input line. This must include nine symbols that can be X, O or _ (the latter represents an empty cell).
+Output the specified 3x3 table before the user makes a move.
+Request that the user enters the coordinates of the move they wish to make.
+The user then inputs two numbers representing the cell in which they wish to place their X or O. The game always starts with X, so the user's move should be made with this symbol if there are an equal number of X's and O's in the table. If the table contains an extra X, the move should be made with O.
+Analyze the user input and show messages in the following situations:
+• This cell is occupied! Choose another one! — if the cell is not empty;
+• You should enter numbers! — if the user tries to enter letters or symbols instead of numbers;
+• Coordinates should be from 1 to 3! — if the user attempts to enter coordinates outside of the table's range.
+Display the table again with the user's most recent move included.
+Output the state of the game.
+The possible states are:
+
+Game not finished — when no side has three in a row, but the table still has empty cells;
+Draw — when no side has three in a row, and the table is complete;
+X wins — when there are three X's in a row;
+O wins — when there are three O's in a row.
+If the user provides invalid coordinates, the program should repeat the request until numbers that represent an empty cell on the table are supplied. You should ensure that the program only outputs the table twice — before the move and after the user makes a legal move.
+
+
+
+
+OBJECTIVES STAGE 2
+When the AI is playing at medium difficulty level, it makes moves using the following logic:
+
+If it already has two in a row and can win with one further move, it does so.
+If its opponent can win with one move, it plays the move necessary to block this.
+Otherwise, it makes a random move.
+You should add a medium parameter so that you can play against this level. It should also be possible to make AIs using easy and medium levels play against each other!
+
+
+
+
+
+OBJECTIVES STAGE 3
+When the AI is playing at medium difficulty level, it makes moves using the following logic:
+
+If it already has two in a row and can win with one further move, it does so.
+If its opponent can win with one move, it plays the move necessary to block this.
+Otherwise, it makes a random move.
+You should add a medium parameter so that you can play against this level. It should also be possible to make AIs using easy and medium levels play against each other!
+
+
+
+
+OBJECTIVES STAGE 4
+When the AI is playing at medium difficulty level, it makes moves using the following logic:
+
+If it already has two in a row and can win with one further move, it does so.
+If its opponent can win with one move, it plays the move necessary to block this.
+Otherwise, it makes a random move.
+You should add a medium parameter so that you can play against this level. It should also be possible to make AIs using easy and medium levels play against each other!
+
+
+
+
+
+OBJECTIVES STAGE 5
+In this last stage, you need to implement the hard difficulty level using the minimax algorithm.
+
+You should also add a hard parameter so that it's possible to play against this level.
+
+
+
