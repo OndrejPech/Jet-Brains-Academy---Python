@@ -1,0 +1,62 @@
+
+OBJECTIVES STAGE 1
+Your program will receive command line arguments in this order:
+
+IP address
+port
+message for sending
+The algorithm is the following:
+
+1. Create a new socket.
+2. Connect to a host and a port using the socket.
+3. Send a message from the third command line argument to the host using the socket.
+4. Receive the server’s response.
+5. Print the server’s response.
+6. Close the socket.
+
+
+
+
+
+OBJECTIVES STAGE 2
+In this stage, you should write a program that:
+
+1. Parses the command line and gets two arguments that are IP address and port.
+2. Tries different passwords until it finds the correct one.
+3. Prints the password it found.
+Note that you can connect to the server only once and then send messages many times. Don't connect to the server before sending every message.
+
+
+
+
+OBJECTIVES STAGE 3
+In this stage, you should write a program that:
+
+1. Parses the command line and gets two arguments that are IP address and port.
+2. Finds the correct password using the list of typical passwords.
+3. Prints the password it found.
+
+
+
+
+OBJECTIVES STAGE 4
+Objectives
+Your algorithm is the following:
+
+1. Try all logins with an empty password.
+2. When you find the login, try out every possible password of length 1.
+3. When an exception occurs, you know that you found the first letter of the password.
+4. Use the found login and the found letter to find the second letter of the password.
+5. Repeat until you receive the ‘success’ message.
+Finally, your program should print the combination of login and password in JSON format. The examples show two ways of what the output can look like.
+
+
+
+
+
+
+OBJECTIVES STAGE 5
+In this stage, you should write a program that uses the time vulnerability to find the password.
+
+Use the list of logins from the previous stage.
+Output the result as you did this in the previous stage.
